@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="false">
+    <datastore-index kind="SerializedTalker" ancestor="false" source="manual">
+        <property name="userId" direction="asc"/>
+        <property name="lastUsedDate" direction="desc"/>
+    </datastore-index>
+
+     <!--<datastore-index kind="StackOverflowQuestion" ancestor="false" source="manual">-->
+        <!--<property name="__key__" direction="desc"/>-->
+    <!--</datastore-index>-->
+</datastore-indexes>
